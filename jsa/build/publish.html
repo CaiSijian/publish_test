@@ -567,7 +567,7 @@
 
         function LoadPublishAddons() {
             var addonList = document.getElementById("addonList");
-            var curList = [{"name":"jsa","addonType":"et","online":"true","multiUser":"false","url":"https://caisijian.github.io/publish_test/jsa/build/"}];
+            var curList = [{"name":"jsa","addonType":"et","online":"true","multiUser":"false","url":"https://caisijian.github.io/publish_test/jsa/"}];
             curList.forEach(function (element) {
                 var param = JSON.stringify(element).replace("\"", "\'");
                 UpdateElement(element, 'enable')
