@@ -1,4 +1,4 @@
-const btn=document.querySelector('button')
-btn.addEventListener('keyup',() => {
-    console.log('ok')
+// @ts-check
+window.addEventListener('keydown', (event) => {
+    alert(event.code)
 })

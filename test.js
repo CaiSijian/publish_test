@@ -1,0 +1,1 @@
+// 'This is an unofficial extension containing snippets for these Tampermonkey functions:'
